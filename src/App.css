@@ -1,0 +1,84 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(207, 177, 198);
+}
+
+.navbar{
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(130, 39, 106);
+  list-style: none;
+}
+.text-normal{
+  font-size: 23px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+.text-normal:hover{
+  color: teal;
+}
+.student-heading{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.student-heading button{
+  height: 2.5rem;
+  width: 10rem;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.container{
+  margin: 0 20px 0 20px;
+  padding: 0 3px 0 3px;
+  /* display: grid; */
+  background-color: white;
+  border-radius: 6px;
+}
+table{
+  background-color: white;
+  border-radius: 10px;
+}
+td{
+  height: 3rem;
+
+}
+ .row{
+  height: 3rem;
+  display: grid;
+  grid-template-columns: 450px 200px 200px 200px 70px;
+}
+
+.edit-container{
+  margin: 80px 200px 0 200px;
+  width: 50rem;
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+  /* overflow: hidden; */
+}
+.edit-row{
+  display: flex;
+  justify-content: space-around;
+}
+.edit-row input{
+  width: 16rem;
+  height: 2.2rem;
+}
+.btn-pos{
+  margin: 2rem 10rem;
+  width: 12rem;
+  height: 2.3rem;
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.btn-pos:hover{
+  background-color: slategray;
+}
